@@ -2,7 +2,7 @@ if myHero.charName ~= "Draven" then
   return
 	
 end
-local __a = 0.1
+local __a = 0.2
 local a_a = true
 local b_a = "S-Draven"
 local c_a = "https://raw.githubusercontent.com/Dienofail/BoL/master/common/SourceLib.lua"
