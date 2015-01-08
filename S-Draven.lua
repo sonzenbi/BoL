@@ -20,7 +20,7 @@ if DOWNLOADING_SOURCELIB then
   return
 end
 if a_a then
-  SourceUpdater(b_a, __a, "raw.github.com", "/BoLFantastik/BoL/master/" .. b_a .. ".lua", SCRIPT_PATH .. GetCurrentEnv().FILE_NAME, "/BoLFantastik/BoL/master/version/" .. b_a .. ".version"):CheckUpdate()
+  SourceUpdater(b_a, __a, "raw.github.com", "/sonzenbi/BoL/blob/master/" .. b_a .. ".lua", SCRIPT_PATH .. GetCurrentEnv().FILE_NAME, "/sonzenbi/BoL/blob/master/" .. b_a .. ".version"):CheckUpdate()
 end
 local _aa = Require("SourceLib")
 _aa:Add("vPrediction", "https://raw.githubusercontent.com/Ralphlol/BoLGit/master/VPrediction.lua")
