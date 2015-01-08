@@ -118,7 +118,7 @@ function OnLoad()
   Config.TSet:addTS(ts)
   if _G.Reborn_Loaded then
     DelayAction(function()
-      PrintChat("<font color = \"#FFFFFF\">[Fantastik Draven] </font><font color = \"#FF0000\">SAC Status:</font> <font color = \"#FFFFFF\">Successfully integrated.</font> </font>")
+      PrintChat("<font color = \"#FFFFFF\">[S-Draven] </font><font color = \"#FF0000\">SAC Status:</font> <font color = \"#FFFFFF\">Successfully integrated.</font> </font>")
       Config:addParam("SACON", "[MOA] SAC:R support is active.", 5, "")
       ada = true
     end, 10)
